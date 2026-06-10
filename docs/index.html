@@ -14,19 +14,21 @@
                 <div class="logo-full">Gustavo Carvalho</div>
                 <div class="logo-minimal"> Gustavo<span>\</span></div>
             </div>
-            <nav>
+            <div class="header-right">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                    </ul>
+                </nav>
+                <button class="theme-toggle" aria-label="Alternar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
                 <button class="menu-toggle" aria-label="Menu">
                     <i class="fas fa-bars"></i>
                 </button>
-                <ul>
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#projects">Projetos</a></li>
-                </ul>
-            </nav>
-            <button class="theme-toggle" aria-label="Alternar tema">
-                <i class="fas fa-moon"></i>
-            </button>
+            </div>
         </div>
     </header>
 
@@ -34,7 +36,7 @@
         <div class="container hero-content">
             <div class="hero-text fade-in">
                 <h1>Gustavo <span class="highlight">Carvalho</span></h1>
-                <p>Programador PHP Junior.</p>
+                <p>Programador PHP Junior III.</p>
                 <div class="social-links">
                     <a href="mailto:gustavocarvalho.gc@gmail.com" aria-label="Email">
                         <i class="fas fa-envelope"></i>
@@ -58,7 +60,7 @@
             <h2 class="section-title fade-in">Sobre Mim</h2>
             <div class="about-content">
                 <div class="about-text fade-in delay-1">
-                    <p>Olá! Sou Gustavo Carvalho, um desenvolvedor PHP Junior apaixonado por criar soluções web eficientes e elegantes. Atualmente, trabalho na Simova, onde desenvolvo sistemas e aplicações utilizando PHP.</p>
+                    <p>Olá! Sou Gustavo Carvalho, um desenvolvedor PHP Junior III apaixonado por criar soluções web eficientes e elegantes. Atualmente, trabalho na Simova, onde desenvolvo sistemas e aplicações utilizando PHP.</p>
                     <p>Minha jornada na programação começou com a curiosidade de entender como a tecnologia que usamos diariamente funciona por trás das interfaces. Essa curiosidade se transformou em paixão e hoje busco constantemente aprimorar minhas habilidades e conhecimentos.</p>
                     <p>Acredito que o código limpo e bem estruturado é a base para soluções duradouras, e por isso me dedico a seguir as melhores práticas de desenvolvimento.</p>
                     <div class="skills">
@@ -87,6 +89,35 @@
             <h2 class="section-title fade-in">Projetos</h2>
             <div class="projects-grid">
                 <div class="project-card fade-in delay-1">
+                    <span class="project-sem">1º semestre</span>
+                    <div class="project-image" style="background-image: url('./img/InnoCode.png')"></div>
+                    <div class="project-content">
+                        <h3>InnoCode Solutions</h3>
+                        <p>Este projeto tem como objetivo fornecer uma plataforma educacional abrangente dedicada à metodologia ágil Scrum. Com a crescente demanda por abordagens ágeis no desenvolvimento de software e gerenciamento de projetos, nossa missão é oferecer um recurso valioso para indivíduos e equipes que desejam aprender e implementar o Scrum de maneira eficaz.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/InnoCodeSolutions/innoCodeSolutions" target="_blank">
+                                <i class="fab fa-github"></i> Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in delay-2">
+                    <span class="project-sem">2º semestre</span>
+                    <div class="project-image" style="background-image: url('./img/visiona.jpeg')"></div>
+                    <div class="project-content">
+                        <h3>WebWizardsPro</h3>
+                        <p>O Sistema de Gestão de Mapeamento Colaborativo é um projeto desenvolvido pela equipe WebWizzards-pro em parceria com a empresa Visiona, que solicitou o desenvolvimento da plataforma. O objetivo deste sistema é fornecer uma plataforma web que simplifique o processo de mapeamento de uso e ocupação da terra para empresas do setor de geotecnologias.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/cGuilhermec/WebWizardsPro-Visona" target="_blank">
+                                <i class="fab fa-github"></i> Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in delay-3">
+                    <span class="project-sem">3º semestre</span>
                     <div class="project-image" style="background-image: url('./img/calorias.jpeg')"></div>
                     <div class="project-content">
                         <h3>Projeto Calorias</h3>
@@ -100,27 +131,43 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="project-card fade-in delay-2">
-                    <div class="project-image" style="background-image: url('./img/InnoCode.png')"></div>
+
+                <div class="project-card fade-in delay-4">
+                    <span class="project-sem">4º semestre</span>
+                    <div class="project-image" style="background-image: url('./img/azimuth.png')"></div>
                     <div class="project-content">
-                        <h3>InnoCode Solutions</h3>
-                        <p>Este projeto tem como objetivo fornecer uma plataforma educacional abrangente dedicada à metodologia ágil Scrum. Com a crescente demanda por abordagens ágeis no desenvolvimento de software e gerenciamento de projetos, nossa missão é oferecer um recurso valioso para indivíduos e equipes que desejam aprender e implementar o Scrum de maneira eficaz.</p>
+                        <h3>Azimuth</h3>
+                        <p>Aplicativo móvel desenvolvido em React Native e TypeScript como projeto do 4º semestre. O Azimuth foi projetado para transmitir, receber, armazenar e visualizar dados de localização de derivadores de maneira eficiente e intuitiva, oferecendo praticidade diretamente no celular, com backend próprio em Node.js.</p>
                         <div class="project-links">
-                            <a href="https://github.com/InnoCodeSolutions/innoCodeSolutions" target="_blank">
+                            <a href="https://github.com/jacksonrcmachado/AZIMUTH" target="_blank">
                                 <i class="fab fa-github"></i> Ver no GitHub
                             </a>
                         </div>
                     </div>
                 </div>
-                
-                <div class="project-card fade-in delay-3">
-                    <div class="project-image" style="background-image: url('./img/visiona.jpeg')"></div>
+
+                <div class="project-card fade-in delay-5">
+                    <span class="project-sem">5º semestre</span>
+                    <div class="project-image" style="background-image: url('./img/receita-ai.svg')"></div>
                     <div class="project-content">
-                        <h3>WebWizardsPro</h3>
-                        <p>O Sistema de Gestão de Mapeamento Colaborativo é um projeto desenvolvido pela equipe WebWizzards-pro em parceria com a empresa Visiona, que solicitou o desenvolvimento da plataforma. O objetivo deste sistema é fornecer uma plataforma web que simplifique o processo de mapeamento de uso e ocupação da terra para empresas do setor de geotecnologias.</p>
+                        <h3>Receita.AI</h3>
+                        <p>Aplicativo desenvolvido em React + Vite como projeto do 5º semestre. O usuário fotografa os alimentos da geladeira e o sistema utiliza reconhecimento de imagem para identificar os ingredientes e sugerir receitas inteligentes, ajudando a reduzir o desperdício de alimentos. Backend em Node.js com MongoDB e autenticação via JWT.</p>
                         <div class="project-links">
-                            <a href="https://github.com/cGuilhermec/WebWizardsPro-Visona" target="_blank">
+                            <a href="https://github.com/cGuilhermec/Receita.AI-Azimuth-5-Semestre" target="_blank">
+                                <i class="fab fa-github"></i> Ver no GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in delay-6">
+                    <span class="project-sem">6º semestre</span>
+                    <div class="project-image" style="background-image: url('./img/procon.png')"></div>
+                    <div class="project-content">
+                        <h3>Procon Chat Bot</h3>
+                        <p>Sistema de atendimento automatizado ao consumidor desenvolvido no 6º semestre em parceria com o PROCON de Jacareí-SP. Integra um chatbot inteligente via WhatsApp a um painel administrativo web, usando um motor RAG e LLM local (Ollama / Llama 3.2) para orientar cidadãos sobre direitos do consumidor. Stack em Node.js, TypeScript, React 19 e PostgreSQL com pgvector.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/cGuilhermec/ProconChatBot" target="_blank">
                                 <i class="fab fa-github"></i> Ver no GitHub
                             </a>
                         </div>
