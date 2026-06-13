@@ -650,6 +650,22 @@ section { padding: 6rem 0; }
     margin-bottom: 1.25rem;
 }
 
+.project-role {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    padding: 0.7rem 0.9rem;
+    border-radius: var(--radius-sm);
+    background: color-mix(in srgb, var(--card-accent, var(--accent)) 8%, transparent);
+    border-left: 3px solid var(--card-accent, var(--accent));
+}
+
+.project-role strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
 .project-links a {
     display: inline-flex;
     align-items: center;
